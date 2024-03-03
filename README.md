@@ -4,6 +4,7 @@ Open source GPA calculator
 
 ### Run server
 Steps:
+copy env variables from .env.example to .env file and update those values with real values
 
 ```sh
 cd server
