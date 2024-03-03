@@ -1,0 +1,18 @@
+{
+  "name": "fourpoint",
+  "version": "1.0.0",
+  "description": "Calculate your GPA and keep track of your progress semester",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd app && npm start",
+    "server": "cd server && node index.js",
+    "dev": ""
+  },
+  "author": "Aishwarya Raja",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
