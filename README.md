@@ -1,6 +1,6 @@
 # FourPoints
 
-Open source GPA calculator
+Open source GPA Calculator
 
 ### Run server
 Steps:
