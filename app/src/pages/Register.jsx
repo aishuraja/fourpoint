@@ -9,7 +9,7 @@ const Register = () => {
   const { register } = useAuth();
   const handleLogin = (e) => {
     e.preventDefault();
-    register({full_nmae: name, email: email, password:password});
+    register({full_name: name, email: email, password:password});
   };
   return (
     <div className="flex items-center justify-center h-screen w-full">

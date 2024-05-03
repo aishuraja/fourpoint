@@ -14,6 +14,7 @@ const NewSemester = () => {
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"));
+    console.log(user)
     setUserName(user.full_name)
   },[userName])
 
